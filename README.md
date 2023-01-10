@@ -13,7 +13,14 @@ Support for Debian 11 is probably the last update, I am not actively managing th
 ### Tune.sh if you have already installed clients (Likely to break something, becareful)
 
 `bash <(wget -qO- https://raw.githubusercontent.com/jerry048/Dedicated-Seedbox/main/Tune.sh)`
+###
+#fix
+vim /root/.bashrc
+export PATH=/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
 
+source /root/.bashrc
+#
+###
 ## Functions
 ### Install.sh
 ###### 1. Install Seedbox Environment

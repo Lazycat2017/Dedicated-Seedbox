@@ -15,10 +15,12 @@ Support for Debian 11 is probably the last update, I am not actively managing th
 `bash <(wget -qO- https://raw.githubusercontent.com/jerry048/Dedicated-Seedbox/main/Tune.sh)`
 ###
 #fix
-vim /root/.bashrc
+
+`vim /root/.bashrc
 export PATH=/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
 
-source /root/.bashrc
+source /root/.bashrc`
+
 #
 ###
 ## Functions

@@ -16,10 +16,10 @@ Support for Debian 11 is probably the last update, I am not actively managing th
 ###
 #fix
 
-`vim /root/.bashrc
+```vim /root/.bashrc
 export PATH=/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
 
-source /root/.bashrc`
+source /root/.bashrc```
 
 #
 ###
